@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> TEXT</title>
+    <link rel="stylesheet" href="sty.css">
+    <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="start_btn">
+        <button>Start Quiz</button></div>
+    <div class="info_box">
+        <div class="info_title"><span> Term & Condition </span> 
+        </div>
+        <div class="info_list">
+           <div class="info">1. You will have only <span> 15 seconds</span> per each question.</div>
+           <div class="info">2. once you select your answer you can't reselect.</div>
+           <div class="info">3. you can't select any option once time goes off.</div>
+           <div class="info">4. you can't exit from the Quiz while your option. </div>
+           <div class="info">5. you'll get score on the basis of your correct answer.  </div>
+        </div>
+    <div class="buttons"> 
+        <button class="quit">Exit Test</button>
+        <button class="restart">Continue</button>
+    </div>
+    </div>
+    <!-- Quiz Box  -->
+<div class="quiz_box">
+    <header>
+        <div class="title">Emotion Recognition  Test</div>
+        <div class="timer">
+            <div class="time_text"> Time Left </div>
+            <div class="timer_sec"> 15 </div>
+        </div>
+        <div class="time_line">
+            
+        </div>
+    </header>
+    <section>
+       <div id="que_text">
+       <img id ="quiz-image"  src=" " alt="Quiz Image">
+       </div>
+      
+       <div class="option_list">
+          <!-- <div class="option">
+            <span>Angry</span>
+            <div class="icon cross"><i class="fa fa-times"></i></div>
+           </div>
+        <div class="option">
+            <span> Happy </span>
+            <div class="icon tick"><i class="fa fa-check" aria-hidden="true"></i></div>
+        </div>
+        <div class="option">
+            <span> Sad </span>
+            <div class="icon cross"><i class="fa fa-times" aria-hidden="true"></i></div>
+        </div>
+        <div class="option">
+            <span> Disgusted </span>
+            <div class="icon cross"><i class="fa fa-times" aria-hidden="true"></i></div>
+        </div> -->
+        </div>
+    </section>
+  <footer>
+    <div class="total_que">
+        <!-- <span><p>2</p>of<p>10</p>Questions</span> -->
+    </div>
+    <button class="next_btn">Next</button> 
+  </footer>
+</div>
+<!-- Result Box -->
+ <div class="result_box">
+    <div class="complete_text">you've completed the Quiz! </div>
+<div class="score_text">
+    <!-- <span>and sorry , you got only <p>2</p>out of <p>10</p></span> -->
+</div>
+<div class="buttons"> 
+    <button class="restart">Replay Quiz</button>
+    <button class="quit">Quit Quiz</button>
+</div>
+ </div>
+
+<script src="javascrp/question.js"></script>
+<script src="javascrp/script.js"></script>
+</body>
+</html>
